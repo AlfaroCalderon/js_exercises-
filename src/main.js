@@ -17,7 +17,12 @@ header();
 
 switch (path) {
   case '/':
-
+    const div = document.createElement('div');
+    div.className = 'form-container';
+    div.innerHTML = `<h2>Ejercicio de JavaScript Rodrigo Alfaro</h2>
+    <p>Selecciona un ejercicio del menú para comenzar.</p>
+    <img src="${javascriptLogo}" class="logo" alt="JavaScript logo">`;
+    document.querySelector('#app').appendChild(div); 
   break;
   case '/exercise1':
     exercise1();
