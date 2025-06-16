@@ -114,7 +114,11 @@ font-weight: bold;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.form-container,
+.result h2{
+  color: #f4f4f4;
+}
+
+.f,orm-container,
 .exercise-form,
 .result {
   box-sizing: border-box;

@@ -22,7 +22,7 @@ document.querySelector('#exercise-form1').addEventListener('submit', function(e)
             result.innerHTML += `<p>${numero} x ${i} = ${numero * i}</p>`;
             result.style.display = 'block';
             result.style.color = 'black';
-            result.style.backgroundColor = 'lightgray';
+            result.style.backgroundColor = '#4CAF50';
         }
     }else {
         result.innerHTML = `<h2>Numero no valido</h2>`;

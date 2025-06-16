@@ -21,13 +21,13 @@ export function exercise9() {
             let fahrenheit = (temperatura * 1.8) + 32;
 
             if (fahrenheit >= 14 && fahrenheit <= 32) {
-                result.innerHTML += `Temperatura baja <p>${fahrenheit} °F</p>`;
+                result.innerHTML += `Temperatura baja <p>${fahrenheit.toFixed(2)} °F</p>`;
             } else if (fahrenheit  > 32 && fahrenheit <= 68) {
-                result.innerHTML += `Temperatura adecuada <p>${fahrenheit} °F</p>`;
+                result.innerHTML += `Temperatura adecuada <p>${fahrenheit.toFixed(2)} °F</p>`;
             }  else if (fahrenheit > 68 && fahrenheit <= 96) {
-                result.innerHTML += `Temperatura alta <p>${fahrenheit} °F</p>`;
+                result.innerHTML += `Temperatura alta <p>${fahrenheit.toFixed(2)} °F</p>`;
             } else{
-                result.innerHTML += `Temperatura desconocida <p>${fahrenheit} °F</p>`;
+                result.innerHTML += `Temperatura desconocida <p>${fahrenheit.toFixed(2)} °F</p>`;
             }
 
             result.style.backgroundColor = 'green';
